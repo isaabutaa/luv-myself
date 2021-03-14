@@ -1,0 +1,44 @@
+body {
+    background-color: #ffd639;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    width: 80vw;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    background-color: #6c698d;
+    padding: 1em;
+    margin: auto;
+}
+
+form input:first-of-type, form textarea {
+    width: 80%;
+    padding: 1em;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 375px) {
+}
